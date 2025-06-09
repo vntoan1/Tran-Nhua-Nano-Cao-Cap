@@ -22,7 +22,14 @@
     <main role="main" class="container pb-3">
         @RenderBody()
     </main>
-
+    <div class="contact-buttons">
+        <a href="https://zalo.me/0966358345" target="_blank" class="btn-contact zalo">
+            <img src="~/images/zalo-icon.png" alt="Zalo" />
+        </a>
+        <a href="tel:0966358345" class="btn-contact phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
     <!-- Footer -->
     @Html.Partial("_Footer")
 
