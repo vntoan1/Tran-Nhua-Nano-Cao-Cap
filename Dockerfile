@@ -17,7 +17,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Expose port
-EXPOSE 80
+EXPOSE 10000
 
 # Run the app
 ENTRYPOINT ["dotnet", "TranNhua.dll"]
