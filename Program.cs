@@ -1,13 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using TranNhua.Models;
 //using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddAuthorization();
 builder.Services.AddControllersWithViews();
 
