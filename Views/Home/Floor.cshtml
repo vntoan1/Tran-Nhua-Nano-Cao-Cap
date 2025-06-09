@@ -1,0 +1,135 @@
+﻿@using Microsoft.AspNetCore.Mvc.RazorPages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Sàn Nhựa Giả Gỗ - Công Trình Thi Công Sàn Nhựa Cao Cấp | Nội Thất Trần Nhựa Nano Cao Cấp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles {
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+}
+
+<div class="slide-container position-relative overflow-hidden">
+    <div class="slide-wrapper d-flex transition-all" id="slider">
+        <img src="~/images/slider1.png" alt="Slide 1" class="slide-img" />
+        <img src="~/images/slider2.png" alt="Slide 2" class="slide-img" />
+        <img src="~/images/slider3.png" alt="Slide 3" class="slide-img" />
+        <img src="~/images/slider4.png" alt="Slide 4" class="slide-img" />
+    </div>
+    <button class="slide-button prev" onclick="prevSlide()">&#10094;</button>
+    <button class="slide-button next" onclick="nextSlide()">&#10095;</button>
+</div>
+<h2 class="text-center my-4">
+    CÔNG TRÌNH THI CÔNG SÀN NHỰA GIẢ GỖ
+</h2>
+<h6 class="text-center mb-4">
+    Với tiềm lực hỗ trợ mạnh mẽ và kinh nghiệm hoạt động trong lĩnh vực sàn gỗ, ngay từ khi thành lập,
+    Nội thất Trần Nhựa Nano Cao cấp luôn mang trong mình một sứ mệnh “mang vẻ đẹp đến mọi nhà
+</h6>
+
+<div class="container my-4">
+    <div class="row">
+        <!-- Sản phẩm 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_1.jpg" class="glightbox">
+                    <img src="/images/op4_1.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_2.jpg" class="glightbox">
+                    <img src="/images/op4_2.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_3.jpg" class="glightbox">
+                    <img src="/images/op4_3.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_4.jpg" class="glightbox">
+                    <img src="/images/op4_4.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_5.jpg" class="glightbox">
+                    <img src="/images/op4_5.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="product-card text-center">
+                <a href="/images/op4_6.jpg" class="glightbox">
+                    <img src="/images/op4_6.jpg" alt="Ảnh sản phẩm" class="img-fluid" style="height: 300px; object-fit: cover;" />
+                </a>
+                <h6 class="mt-2">CÔNG TRÌNH LAM SÓNG PVC VÁCH NGĂN</h6>
+                <p class="contact">Liên hệ 0966358345</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center text-primary fw-bold">SÀN NHỰA GIẢ GỖ </h2>
+    <h5 class="fw-bold">Đặc tính nổi bật</h5>
+    <p>Sàn gỗ là một trong những lựa chọn phổ biến nhất cho các công trình xây dựng và trang trí nội thất. Với vẻ đẹp tự nhiên và cảm giác ấm áp, sàn gỗ mang lại không gian sống gần gũi và sang trọng. Một trong những đặc tính nổi bật của sàn gỗ là khả năng chịu lực tốt, giúp nó có thể chịu được trọng lượng lớn mà không bị biến dạng. Ngoài ra, sàn gỗ còn có khả năng cách âm và cách nhiệt tốt, tạo cảm giác thoải mái cho người sử dụng.</p>
+
+    <h5 class="fw-bold">Ưu điểm khi sử dụng</h5>
+    <P>Sàn gỗ không chỉ đẹp mà còn rất bền bỉ. Với tuổi thọ trung bình từ 15 đến 25 năm, sàn gỗ có thể được bảo trì và sửa chữa dễ dàng. Hơn nữa, sàn gỗ có khả năng chống trơn trượt, rất an toàn cho trẻ em và người lớn tuổi. Việc vệ sinh sàn gỗ cũng rất đơn giản; chỉ cần lau chùi bằng khăn ẩm và sử dụng các sản phẩm chuyên dụng để giữ cho bề mặt luôn bóng đẹp.</P>
+
+</div>
+
+<script>
+    const slider = document.getElementById("slider");
+    const totalSlides = slider.children.length;
+    let currentIndex = 0;
+
+    function updateSlide() {
+        slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateSlide();
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSlide();
+    }
+
+    setInterval(nextSlide, 5000);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+    const lightbox = GLightbox({ selector: '.glightbox' });
+</script>

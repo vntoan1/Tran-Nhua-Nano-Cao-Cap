@@ -1,0 +1,38 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-3">
+        <div class="container">
+            <!-- Logo bên trái -->
+            <a class="navbar-brand me-5" asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="~/images/logo.png" alt="Logo" height="50" />
+                <span class="ms-2">Trần Nhựa Nano Cao cấp</span>
+            </a>
+
+            <!-- Nút toggle cho mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu items ở giữa -->
+            <div class="collapse navbar-collapse justify-content-center " id="mainNavbar">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" asp-controller="Home" asp-action="partition">Lam Sóng PVC Vách Ngăn</a>
+                    </li>
+                    @* <li class="nav-item">
+                        <a class="nav-link fw-semibold" asp-controller="Home" asp-action="Privacy">Trần Nhựa Đẹp</a>
+                    </li> *@
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" asp-controller="Home" asp-action="Floor">Sàn Nhựa Giả Gỗ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" asp-controller="Home" asp-action="contact">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

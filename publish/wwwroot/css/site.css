@@ -1,0 +1,206 @@
+﻿.slide-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+}
+
+    .slide-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+    .slide-button.prev {
+        left: 10px;
+    }
+
+    .slide-button.next {
+        right: 10px;
+    }
+.why-choose-us {
+    background-color: #003c37;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+    .why-choose-us h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .why-choose-us .intro {
+        max-width: 800px;
+        margin: 0 auto 40px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.reason-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+    .reason-item img {
+        width: 80px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .reason-item h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+.product-section {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .product-card h3 {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .product-card .contact {
+        color: #ef6c00;
+        font-weight: 500;
+        margin-top: 4px;
+    }
+/* Hiện nút đóng Lightbox rõ ràng */
+.lb-close {
+    font-size: 32px !important;
+    top: 10px !important;
+    right: 15px !important;
+    opacity: 1 !important;
+    color: white !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 50%;
+    padding: 5px 10px;
+    z-index: 9999 !important;
+    display: block !important;
+}
+:root {
+    --swiper-navigation-size: 24px;
+}
+
+.contact-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn-contact {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+    .btn-contact:hover {
+        transform: scale(1.1);
+    }
+
+.phone {
+    background-color: #25d366;
+    font-size: 24px;
+}
+
+.zalo {
+    background-color: #0088ff;
+    font-size: 24px;
+}
+
+    .zalo img {
+        width: 25px;
+        height: 25px;
+    }
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.zalo img, .phone i {
+    animation: shake 0.5s infinite;
+    transition: transform 0.3s;
+}

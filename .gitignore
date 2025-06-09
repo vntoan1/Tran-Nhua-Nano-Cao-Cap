@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.log
+*.exe
+*.dll
+*.pdb
+logs/
+TranNhua.runtimeconfig.dev.json
+TranNhua.deps.json
+TranNhua.exe
