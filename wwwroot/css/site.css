@@ -81,6 +81,16 @@
         font-size: 16px;
         font-weight: bold;
     }
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /*background-color: white;*/ /* Hoặc màu phù hợp */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tuỳ chọn */
+}
+
+/* Phần sản phẩm */
 .product-section {
     padding: 40px 20px;
     background-color: #f7f7f7;
