@@ -20,4 +20,4 @@ COPY --from=build /app/publish .
 EXPOSE 80
 
 # Run the app
-ENTRYPOINT ["dotnet", "TenProjectCuaBan.dll"]
+ENTRYPOINT ["dotnet", "TranNhua.dll"]
