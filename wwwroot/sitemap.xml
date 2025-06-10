@@ -5,5 +5,20 @@
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
+	<url>
+		<loc>https://tran-nhua-website.onrender.com/Home/partition</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://tran-nhua-website.onrender.com/Home/Floor</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://tran-nhua-website.onrender.com/Home/contact</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
 	<!-- Thêm các URL khác nếu có -->
 </urlset>

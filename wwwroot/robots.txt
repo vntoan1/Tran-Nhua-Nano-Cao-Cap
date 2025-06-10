@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tran-nhua-website.onrender.com/sitemap.xml
