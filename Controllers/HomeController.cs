@@ -9,14 +9,14 @@ public class HomeController : Controller
     }
     public ActionResult Contact()
     {
-        return View(); // Trả về contact.cshtml trong thư mục Views/Home
+        return View(); 
     }
     public ActionResult partition()
     {
-        return View(); // Trả về contact.cshtml trong thư mục Views/Home
+        return View(); 
     }
     public ActionResult Floor()
     {
-        return View(); // Trả về contact.cshtml trong thư mục Views/Home
+        return View(); 
     }
 }
